@@ -1,9 +1,9 @@
 body {
-  background-color: #c7c4bb;
+  background-color: #2C3E50;
 }
 
 .jumbotron {
-  background-color: #c7c4bb;
+  background-color: #2C3E50;
 }
 
 #burgerImage {
@@ -14,31 +14,32 @@ body {
 }
 
 .form-control {
-  background-color: #dbd5bd;
+  background-color: #EBF5FB;
 }
 
 .addBurgerButton {
   margin: auto;
   display: block;
-  background-color: #d99321;
-  border-color: #d99321;
+  background-color: #3498DB;
+  border-color: #3498DB;
+
 }
 
 .addBurgerButton:hover{
-  background-color: #c36c3b;
-  border-color: #c36c3b;
+  background-color: #85C1E9;
+  border-color: #85C1E9;
 }
 
 .eatAButton {
   margin: auto;
   display: block;
-  background-color: #d99321;
-  border-color: #d99321;
+  background-color: #3498DB;
+  border-color: #3498DB;
 }
 
 .eatAButton:hover{
-  background-color: #c36c3b;
-  border-color: #c36c3b;
+  background-color: #85C1E9;
+  border-color: #85C1E9;
 }
 
 #title {
@@ -50,13 +51,13 @@ h1 {
   margin: auto;
   text-align: center;
   font-family: 'Oswald', sans-serif;
-  font-size: 100px;
-  color: #c36c3b;
+  font-size: 75px;
+  color: #3498DB;
 }
 
 h2 {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 5px;
   color: #7c817a;
   font-family: 'Nunito', sans-serif;
   font-size: 30px;
@@ -92,7 +93,7 @@ h2 {
 
 #eatenBurgers {
   margin-bottom: 10px;
-  background-color: #dbd5be;
+  background-color: #EBF5FB;
   font-family: 'Nunito', sans-serif;
 }
 
