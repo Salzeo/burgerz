@@ -1,0 +1,101 @@
+body {
+  background-color: #c7c4bb;
+}
+
+.jumbotron {
+  background-color: #c7c4bb;
+}
+
+#burgerImage {
+  width: 550px;
+  height: 450px;
+  margin: auto;
+  display: block;
+}
+
+.form-control {
+  background-color: #dbd5bd;
+}
+
+.addBurgerButton {
+  margin: auto;
+  display: block;
+  background-color: #d99321;
+  border-color: #d99321;
+}
+
+.addBurgerButton:hover{
+  background-color: #c36c3b;
+  border-color: #c36c3b;
+}
+
+.eatAButton {
+  margin: auto;
+  display: block;
+  background-color: #d99321;
+  border-color: #d99321;
+}
+
+.eatAButton:hover{
+  background-color: #c36c3b;
+  border-color: #c36c3b;
+}
+
+#title {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  margin: auto;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-size: 100px;
+  color: #c36c3b;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 20px;
+  color: #7c817a;
+  font-family: 'Nunito', sans-serif;
+  font-size: 30px;
+}
+
+#allTheBurgers {
+  margin: auto;
+  display: block;
+}
+
+#allTheBurgers {
+  margin-bottom: 20px;
+  display: block;
+  text-align: center;
+  color: #7c817a;
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+}
+
+#devouredBurgers {
+  margin: auto;
+  display: block;
+  text-align: center;
+  color: #7c817a;
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+}
+
+.burgerToEat {
+  margin: auto;
+  display: block;
+}
+
+#eatenBurgers {
+  margin-bottom: 10px;
+  background-color: #dbd5be;
+  font-family: 'Nunito', sans-serif;
+}
+
+.footer {
+  padding-top: 60px;
+}
