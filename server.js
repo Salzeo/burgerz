@@ -35,9 +35,9 @@ var connections = mysql.createConnection({
     database: 'burger_db'
   });
 
-  connection.connect(function(err){
-    if(err)throw err;
-  console.log('Connected as id: ' +connection.threadId);
-  })
+  //connections.connect(function(err){
+    //if(err)throw err;
+  //console.log('Connected as id: ' +connection.threadId);
+  //})
 
 });
