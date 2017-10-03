@@ -33,10 +33,11 @@ var connections = mysql.createConnection({
     user: 'root',
     password: 'Canondale^31',
     database: 'burger_db'
-})
   });
 
   connection.connect(function(err){
     if(err)throw err;
-    console.log('Connected as id: ' +connection.threadId);
+  console.log('Connected as id: ' +connection.threadId);
   })
+
+});
