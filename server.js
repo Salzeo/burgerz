@@ -3,7 +3,7 @@ var methodOverride = require("method-override");
 var bodyParser = require("body-parser");
 var mysql = require('mysql');
 
-var PORT = process.env.PORT || 3306;
+var PORT = process.env.PORT || 3000;
 
 var app = express();
 
@@ -32,6 +32,11 @@ var connections = mysql.createConnection({
     host: 'localhost',
     user: 'root',
     password: 'Canondale^31',
-    database: 'burger'
+    database: 'burger_db'
 })
   });
+
+  connection.connect(function(err){
+    if(err)throw err;
+    console.log('Connected as id: ' +connection.threadId);
+  })
