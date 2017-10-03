@@ -2,26 +2,23 @@
   "name": "eat-da-burger",
   "version": "1.0.0",
   "description": "a burger logger",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node server.js",
+    "start":"node server.js"
   },
   "repository": {
     "type": "git",
     "url": ""
   },
-  "author": "",
+  "author": "Sally Bradfield",
   "license": "ISC",
-  "bugs": {
-    "url": ""
-  },
-  "homepage": "",
   "dependencies": {
-    "body-parser": "^1.17.2",
+    "body-parser": "^1.18.2",
     "express": "^4.15.4",
     "express-handlebars": "^3.0.0",
     "handlebars": "^4.0.10",
-    "method-override": "^2.3.9",
+    "method-override": "^2.3.10",
     "mysql": "^2.14.1"
   }
 }
